@@ -26,8 +26,8 @@
 ## 依赖
 ```xml
 <dependency>
-      <artifactId>witty-commoms-parent</artifactId>
       <groupId>com.netease</groupId>
+      <artifactId>witty-commoms-parent</artifactId>
       <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
