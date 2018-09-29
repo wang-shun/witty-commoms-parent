@@ -26,14 +26,14 @@
 ## 依赖
 ```xml
 <dependency>
+      <artifactId>witty-commoms-parent</artifactId>
       <groupId>com.netease</groupId>
-      <artifactId>yaolu-commons-parent</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
 ## 配置
 ``` bash
-<bean class="com.netease.yaolu.commons.limit.aop.advisor.DefaultMethodPointcutAdvisor">
+<bean class="com.netease.commons.limit.aop.advisor.DefaultMethodPointcutAdvisor">
       <constructor-arg>
           <value>namespace</value>
           <value>stringRedisTemplate</value>
